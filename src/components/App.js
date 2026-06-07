@@ -23,8 +23,8 @@ const App = () => {
        <form onSubmit={handleSubmit}>
         <label htmlFor="billamt">Bill:</label>
         <input id="billamt" value={billAmount} onChange={e => setBillAmount(e.target.value)} />
-        <label htmlFor="tippercentage">Tip percentage:</label>
-        <input id="tippercentage" value={tipPercent} onChange={e => setTipPercent(e.target.value)} />
+        <label htmlFor="seriveQual">Tip percentage:</label>
+        <input id="serviceQual" value={tipPercent} onChange={e => setTipPercent(e.target.value)} />
         <label htmlFor="people">Number of people:</label>
         <input id="people" value={people} onChange={e => setPeople(e.target.value)} />
         <button>Calculate Tip</button>
