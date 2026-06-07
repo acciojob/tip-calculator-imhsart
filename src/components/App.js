@@ -29,7 +29,7 @@ const App = () => {
         <input id="peopleamt" value={people} onChange={e => setPeople(e.target.value)} />
         <button>Calculate Tip</button>
        </form>
-       <p style={{textAlign:'center'}}>Tip per person: ${tipPerson}</p>
+       <p id="totalTip" style={{textAlign:'center'}}>Tip per person: ${tipPerson}</p>
     </div>
   )
 }
