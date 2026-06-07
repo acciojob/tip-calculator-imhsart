@@ -21,10 +21,10 @@ const App = () => {
   return (
     <div  id="container">
        <form onSubmit={handleSubmit}>
-        <label htmlFor="bill">Bill:</label>
-        <input id="bill" value={billAmount} onChange={e => setBillAmount(e.target.value)} />
-        <label htmlFor="tip-percentage">Tip percentage:</label>
-        <input id="tip-percentage" value={tipPercent} onChange={e => setTipPercent(e.target.value)} />
+        <label htmlFor="billamt">Bill:</label>
+        <input id="billamt" value={billAmount} onChange={e => setBillAmount(e.target.value)} />
+        <label htmlFor="tippercentage">Tip percentage:</label>
+        <input id="tippercentage" value={tipPercent} onChange={e => setTipPercent(e.target.value)} />
         <label htmlFor="people">Number of people:</label>
         <input id="people" value={people} onChange={e => setPeople(e.target.value)} />
         <button>Calculate Tip</button>
